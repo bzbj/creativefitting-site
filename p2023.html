@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>CreativeFitting 获数百万美元 Pre-A 轮融资，自研视频生成模型，将发布全球首款 AI 短剧 APP — CreativeFitting 井英科技</title>
+<meta name="description" content="CreativeFitting 获数百万美元 Pre-A 轮融资，自研视频生成模型，将发布全球首款 AI 短剧 APP" />
+<link href="./assets/fonts/fonts.css" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0b0a08;--ink-2:#14110c;--paper:#f3ece1;--paper-dim:#bfb5a4;
+    --amber:#f5a623;--line:rgba(243,236,225,.14);
+    --serif-zh:"Noto Serif SC","Songti SC","STSong",serif;
+    --serif-en:"Playfair Display",Georgia,"Times New Roman",serif;
+    --mono:"Space Grotesk","SF Mono",ui-monospace,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{background:var(--ink);color:var(--paper);font-family:var(--mono);font-weight:300;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+  ::selection{background:var(--amber);color:var(--ink)}
+  a{color:inherit;text-decoration:none}
+  img{display:block;max-width:100%}
+  body::after{
+    content:"";position:fixed;inset:-50%;z-index:120;pointer-events:none;opacity:.05;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    animation:grain 7s steps(10) infinite;
+  }
+  @keyframes grain{0%,100%{transform:translate(0,0)}10%{transform:translate(-3%,2%)}30%{transform:translate(2%,-4%)}50%{transform:translate(-4%,-2%)}70%{transform:translate(3%,4%)}90%{transform:translate(-2%,3%)}}
+  nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:1.1rem 4vw;transition:background .4s,border-color .4s,padding .4s;border-bottom:1px solid transparent}
+  nav.scrolled{background:rgba(11,10,8,.86);backdrop-filter:blur(14px);border-color:var(--line);padding:.7rem 4vw}
+  nav .brand img{height:22px;width:auto}
+  .btn-back{font-family:var(--mono);font-size:.78rem;letter-spacing:.14em;border:1px solid var(--amber);color:var(--amber);padding:.55rem 1.3rem;border-radius:2px;transition:background .3s,color .3s;white-space:nowrap}
+  .btn-back:hover{background:var(--amber);color:var(--ink)}
+  .art-hero{position:relative;padding:9.5rem 4vw 4rem;border-bottom:1px solid var(--line);background:var(--ink-2);overflow:hidden}
+  .art-hero::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 70% 90% at 50% -20%,rgba(245,166,35,.12),transparent 70%);pointer-events:none}
+  .art-hero .inner{max-width:860px;margin:0 auto;position:relative}
+  .slate{display:flex;align-items:center;gap:1.2rem;margin-bottom:1.8rem}
+  .slate .no{font-size:.72rem;letter-spacing:.3em;color:var(--amber);text-transform:uppercase}
+  .slate .bar{flex:0 0 56px;height:1px;background:var(--amber)}
+  .slate .clap{width:20px;height:20px;fill:var(--amber)}
+  .art-hero h1{font-family:var(--serif-zh);font-weight:900;font-size:clamp(1.6rem,4vw,2.9rem);line-height:1.5;letter-spacing:.04em}
+  .art-meta{display:flex;gap:1.4rem;align-items:center;margin-top:1.8rem;font-size:.76rem;letter-spacing:.2em;color:var(--paper-dim);text-transform:uppercase;flex-wrap:wrap}
+  .art-meta .date{color:var(--amber)}
+  .art-body{max-width:760px;margin:0 auto;padding:4.5rem 4vw 5rem}
+  .art-body p{font-size:1.02rem;line-height:2.15;color:var(--paper-dim);margin-bottom:2rem;letter-spacing:.02em}
+  .art-body p strong{color:var(--paper);font-weight:500}
+  .art-body h2{font-family:var(--serif-zh);font-weight:700;font-size:1.45rem;letter-spacing:.06em;color:var(--paper);margin:3.4rem 0 1.6rem;display:flex;align-items:baseline;gap:1rem}
+  .art-body h2 .idx{font-family:var(--serif-en);font-style:italic;font-weight:500;font-size:1.6rem;color:var(--amber)}
+  figure{margin:2.8rem 0;position:relative}
+  figure img{width:100%;border-radius:8px;border:1px solid var(--line);filter:saturate(.92)}
+  figure figcaption{margin-top:.9rem;font-size:.72rem;letter-spacing:.18em;color:var(--paper-dim);text-transform:uppercase}
+  figure figcaption::before{content:"▸";color:var(--amber);margin-right:.6em}
+  blockquote{border-left:2px solid var(--amber);padding:.4rem 0 .4rem 1.8rem;margin:2.8rem 0}
+  blockquote p{font-family:var(--serif-zh);font-size:1.12rem;line-height:2.1;color:var(--paper);margin-bottom:.8rem;font-weight:400}
+  blockquote cite{font-style:normal;font-size:.74rem;letter-spacing:.22em;color:var(--amber);text-transform:uppercase}
+  .art-foot{max-width:760px;margin:0 auto;padding:0 4vw 6rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+  .art-foot a{display:inline-flex;align-items:center;gap:.6rem;font-size:.82rem;letter-spacing:.14em;border:1px solid var(--line);padding:.85rem 1.6rem;border-radius:2px;color:var(--paper-dim);transition:border-color .3s,color .3s,background .3s}
+  .art-foot a:hover{border-color:var(--amber);color:var(--amber);background:rgba(245,166,35,.06)}
+  footer{border-top:1px solid var(--line);padding:3rem 4vw;background:var(--ink)}
+  .foot-row{max-width:1200px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:2rem;flex-wrap:wrap}
+  footer img{height:18px;opacity:.85}
+  footer p{font-size:.72rem;letter-spacing:.14em;color:var(--paper-dim)}
+  footer a:hover{color:var(--paper)}
+</style>
+</head>
+<body>
+
+<nav id="nav">
+  <a class="brand" href="./"><img src="./assets/logo.png" alt="CreativeFitting"></a>
+  <a class="btn-back" href="./#news">← 返回公司动态</a>
+</nav>
+
+<header class="art-hero">
+  <div class="inner">
+    <div class="slate">
+      <svg class="clap" viewBox="0 0 24 24"><path d="M20.2 6 22 4.2 19.8 2 18 3.8 16.2 2 14 4.2 15.8 6H2v16h20V6h-1.8zM4.5 4.7 6.3 6.5 4.5 8.3 2.7 6.5l1.8-1.8zm5 0 1.8 1.8-1.8 1.8-1.8-1.8 1.8-1.8zM20 20H4V10h16v10z"/></svg>
+      <span class="no">Press Room — Origin</span>
+      <span class="bar"></span>
+    </div>
+    <h1>CreativeFitting 获数百万美元 Pre-A 轮融资，自研视频生成模型，将发布全球首款 AI 短剧 APP</h1>
+    <div class="art-meta">
+      <span class="date">2023.11.20</span>
+      <span>·</span>
+      <span>CreativeFitting 井英科技</span>
+    </div>
+  </div>
+</header>
+
+<article class="art-body">
+      <p>近日「CreativeFitting（井英科技）」宣布完成数百万美元 Pre-A 轮融资，由九合创投、众麟资本投资。</p>
+      <p>CreativeFitting 自研高质量视频生成模型近期取得突破，可生成 AI 短剧视频。CreativeFitting 计划进军海外短剧市场，即将发布全球首款 AI 短剧 APP，构建新一代 toC 超级内容平台。</p>
+      <p>CreativeFitting 成立于 2021 年，公司坚信 AIGC 将对内容行业带来巨大变革，在 YouTube、TikTok 之后，未来一定会出现新一代 toC 超级内容平台。过去两年 CreativeFitting 的发展一直沿着这个主航道前进：优先自研模型生成优质视频内容，再发布 APP 聚拢用户，逐步形成 toC 超级内容平台。</p>
+      <p>CreativeFitting 坚持致力于自研 AIGC 视频生成模型生成高质量内容，从生成广告短视频到生成 AI 短剧，CreativeFitting 生成视频的质量都达到了行业领先级效果。去年 CreativeFitting 推出了外国“真人”短视频一站式生产平台，其生成的 AI 广告视频屡次在全球广告视频榜单上榜，并赢得了数百家出海及海外本土头部客户的认可。今年 CreativeFitting 视频生成模型取得了重大突破，其生成的 AI 短剧视频在社交媒体平台上获得了上百万的播放量。</p>
+      <figure><img src="./assets/news-2023.webp" alt="" loading="lazy">
+        <figcaption>图片来源：CreativeFitting 生成的 AI 短剧视频</figcaption></figure>
+      <p>CreativeFitting 对 AIGC 及内容都有全球领先的深刻理解与积累。创始人兼 CEO 朱江毕业于上海交通大学计算机系，曾任触宝科技首席增长官，从 0 构建了千万级 DAU 的内容平台产品，并负责集团全球用户增长工作。公司拥有一支既懂 AI 又懂内容的优秀团队，其中有国际顶级 AI 视觉比赛 ImageNet 的世界冠军、有 UCLA 本硕毕业的专业导演等，团队成员曾就职于百度、字节跳动、腾讯等公司，并毕业于上海交通大学、复旦大学、清华大学等高校。</p>
+      <h2><span class="idx">01</span>研发超过两年，专门为生成高质量内容打造的视频生成模型</h2>
+      <p>从视频生成模型的研发重心上看，CreativeFitting 是国内最早开始基于大模型做视频生成的团队之一，从创业一开始就专注研发针对高质量情节类视频的生成模型，抓住引发观众的情感共鸣这一关键点，从情节相对简单的广告短视频逐步升级到情节复杂的短剧视频，持续生成高质量视频内容。从训练数据到算法设计及工程实现，都针对业务场景的内容一致性和可控性进行了专门优化。</p>
+      <blockquote><p>针对高质量的广告及短剧视频，情感表达是重中之重。我们的模型针对表情神态的表达进行重点优化，使用了大量的高质量标注的表情数据进行精调，并且在模型的生成过程中引入了音频数据，可以从音频提取表情特征用于视频的生成，让视频的情感表达同音频对齐。</p><cite>— 井英科技创始人兼 CEO 朱江</cite></blockquote>
+      <h2><span class="idx">02</span>短剧赛道持续爆火，AI 短剧将引发下一代超级内容平台革命</h2>
+      <p>除了视频生成大模型的关键突破，CreativeFitting 选择行业落地的短剧赛道已持续爆火。据巨量引擎内容消费业务中心统计，9 月短剧投放大盘日均消耗规模超 5000 万元，假设平均 ROI 在 1.2，年化后行业规模已达 200 亿元。对比来看，今年国内电影总票房预测 500 亿元，短剧用短短两年时间就达到了电影行业收入规模的 40%。而在海外，短剧赛道同样火热，AppStore 排行榜显示，近日中文在线旗下的 ReelShort 登顶美国 iOS 娱乐类免费榜，下载量一度超过 TikTok。另据报道，ReelShort 的美国市场月流水甚至已经达到 Netflix 同期的 70%。</p>
+      <p>在过去，从手持 DV，到摄像机，再到手机摄像头，借助以「拍摄记录」为核心的内容生产力工具，人类已在对现实世界和真实生活的复刻上走到了极致，并且催生了 YouTube、TikTok 等不同时代的内容平台。但人类也从未停止对想象世界的塑造，从小说、漫画，到电影、游戏，人类在塑造想象世界的同时，想象世界也在拓展人类现实生活体验的边界。不同于摄像头之于现实世界，想象世界总是缺乏一个里程碑式的生产力工具，导致想象世界内容创作成本高、创作效率低、耗费人力巨大。人类对想象世界的内容消费需求量远远大于其内容产量。</p>
+      <p>随着生成式 AI 能力的爆发，特别是多模态生成能力的阶跃发展，以「创造生成」为核心的 AIGC 工具，带来了新一代内容创作工具的变革机遇，将把人类对想象世界的塑造带到一个新的纪元，也将出现 YouTube、TikTok 之后的新一代 AIGC 超级内容平台。</p>
+      <h2><span class="idx">03</span>即将发布全球首款 AI 短剧 APP，采取首发海外的模式，首先登陆美国市场</h2>
+      <p>“如何对想象世界进行塑造？”CreativeFitting 的答案是从 AI 短剧产品开始。为什么是 AI 短剧？小说、漫画，IP 储备丰富、内容体验强，但内容形式落后，消费群体始终无法破圈；电影、游戏，内容体验强，但内容产能不足、生产成本高昂，规模化始终成为瓶颈。短剧正是对想象世界塑造的又一次成功尝试，相比于影视剧的高成本、高投入、低产能、低效率，短剧在诞生之初，就在生产成本和生产效率上做了一次大胆优化，进一步释放了想象世界内容的产能。</p>
+      <p>无论是暴涨的短剧播放量，还是可观的用户付费收入，都说明用户对想象世界内容的消费需求是远远没有被满足、且亟需进一步释放的。朱江认为，实拍并不是解决想象世界内容生产的唯一手段，也不是最终手段。同时，短剧是一种内容形式，更是一种内容范式，证明长连续、有剧情的短视频内容在用户消费侧有巨大的潜力。CreativeFitting 独创的 AI 短剧内容形式，正是在「短剧化」内核的基础上，进一步拓展了「互动性」和「多模态」，使得人类对想象世界的感知，可以从看到聊，再到玩。</p>
+      <p>朱江表示：“此次融资将主要用于视频生成模型能力的进一步提升、AI 短剧产品的研发及用户增长。我们将持续专注于提升视频生成模型及 AI 短剧产品，加快推动公司成为新一代超级内容平台。”</p>
+</article>
+
+<div class="art-foot">
+  <a href="./#news">← 返回公司动态</a>
+  <a href="./#about">关于我们 →</a>
+</div>
+
+<footer>
+  <div class="foot-row">
+    <img src="./assets/logo.png" alt="CreativeFitting">
+    <p>©️ 2021–2026 CreativeFitting 井英科技 · To Imagine, To Create, To Experience</p>
+    <p><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">闽ICP备2023004627号-2</a></p>
+  </div>
+</footer>
+
+<script>
+  const nav = document.getElementById('nav');
+  addEventListener('scroll', () => nav.classList.toggle('scrolled', scrollY > 40), {passive:true});
+</script>
+</body>
+</html>

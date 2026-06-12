@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>海外热榜首次出现 AI 短剧的身影 — CreativeFitting 井英科技</title>
+<meta name="description" content="海外热榜首次出现 AI 短剧的身影" />
+<link href="./assets/fonts/fonts.css" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0b0a08;--ink-2:#14110c;--paper:#f3ece1;--paper-dim:#bfb5a4;
+    --amber:#f5a623;--line:rgba(243,236,225,.14);
+    --serif-zh:"Noto Serif SC","Songti SC","STSong",serif;
+    --serif-en:"Playfair Display",Georgia,"Times New Roman",serif;
+    --mono:"Space Grotesk","SF Mono",ui-monospace,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{background:var(--ink);color:var(--paper);font-family:var(--mono);font-weight:300;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+  ::selection{background:var(--amber);color:var(--ink)}
+  a{color:inherit;text-decoration:none}
+  img{display:block;max-width:100%}
+  body::after{
+    content:"";position:fixed;inset:-50%;z-index:120;pointer-events:none;opacity:.05;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    animation:grain 7s steps(10) infinite;
+  }
+  @keyframes grain{0%,100%{transform:translate(0,0)}10%{transform:translate(-3%,2%)}30%{transform:translate(2%,-4%)}50%{transform:translate(-4%,-2%)}70%{transform:translate(3%,4%)}90%{transform:translate(-2%,3%)}}
+  nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:1.1rem 4vw;transition:background .4s,border-color .4s,padding .4s;border-bottom:1px solid transparent}
+  nav.scrolled{background:rgba(11,10,8,.86);backdrop-filter:blur(14px);border-color:var(--line);padding:.7rem 4vw}
+  nav .brand img{height:22px;width:auto}
+  .btn-back{font-family:var(--mono);font-size:.78rem;letter-spacing:.14em;border:1px solid var(--amber);color:var(--amber);padding:.55rem 1.3rem;border-radius:2px;transition:background .3s,color .3s;white-space:nowrap}
+  .btn-back:hover{background:var(--amber);color:var(--ink)}
+  .art-hero{position:relative;padding:9.5rem 4vw 4rem;border-bottom:1px solid var(--line);background:var(--ink-2);overflow:hidden}
+  .art-hero::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 70% 90% at 50% -20%,rgba(245,166,35,.12),transparent 70%);pointer-events:none}
+  .art-hero .inner{max-width:860px;margin:0 auto;position:relative}
+  .slate{display:flex;align-items:center;gap:1.2rem;margin-bottom:1.8rem}
+  .slate .no{font-size:.72rem;letter-spacing:.3em;color:var(--amber);text-transform:uppercase}
+  .slate .bar{flex:0 0 56px;height:1px;background:var(--amber)}
+  .slate .clap{width:20px;height:20px;fill:var(--amber)}
+  .art-hero h1{font-family:var(--serif-zh);font-weight:900;font-size:clamp(1.6rem,4vw,2.9rem);line-height:1.5;letter-spacing:.04em}
+  .art-meta{display:flex;gap:1.4rem;align-items:center;margin-top:1.8rem;font-size:.76rem;letter-spacing:.2em;color:var(--paper-dim);text-transform:uppercase;flex-wrap:wrap}
+  .art-meta .date{color:var(--amber)}
+  .art-body{max-width:760px;margin:0 auto;padding:4.5rem 4vw 5rem}
+  .art-body p{font-size:1.02rem;line-height:2.15;color:var(--paper-dim);margin-bottom:2rem;letter-spacing:.02em}
+  .art-body p strong{color:var(--paper);font-weight:500}
+  .art-body h2{font-family:var(--serif-zh);font-weight:700;font-size:1.45rem;letter-spacing:.06em;color:var(--paper);margin:3.4rem 0 1.6rem;display:flex;align-items:baseline;gap:1rem}
+  .art-body h2 .idx{font-family:var(--serif-en);font-style:italic;font-weight:500;font-size:1.6rem;color:var(--amber)}
+  figure{margin:2.8rem 0;position:relative}
+  figure img{width:100%;border-radius:8px;border:1px solid var(--line);filter:saturate(.92)}
+  figure figcaption{margin-top:.9rem;font-size:.72rem;letter-spacing:.18em;color:var(--paper-dim);text-transform:uppercase}
+  figure figcaption::before{content:"▸";color:var(--amber);margin-right:.6em}
+  blockquote{border-left:2px solid var(--amber);padding:.4rem 0 .4rem 1.8rem;margin:2.8rem 0}
+  blockquote p{font-family:var(--serif-zh);font-size:1.12rem;line-height:2.1;color:var(--paper);margin-bottom:.8rem;font-weight:400}
+  blockquote cite{font-style:normal;font-size:.74rem;letter-spacing:.22em;color:var(--amber);text-transform:uppercase}
+  .art-foot{max-width:760px;margin:0 auto;padding:0 4vw 6rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+  .art-foot a{display:inline-flex;align-items:center;gap:.6rem;font-size:.82rem;letter-spacing:.14em;border:1px solid var(--line);padding:.85rem 1.6rem;border-radius:2px;color:var(--paper-dim);transition:border-color .3s,color .3s,background .3s}
+  .art-foot a:hover{border-color:var(--amber);color:var(--amber);background:rgba(245,166,35,.06)}
+  footer{border-top:1px solid var(--line);padding:3rem 4vw;background:var(--ink)}
+  .foot-row{max-width:1200px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:2rem;flex-wrap:wrap}
+  footer img{height:18px;opacity:.85}
+  footer p{font-size:.72rem;letter-spacing:.14em;color:var(--paper-dim)}
+  footer a:hover{color:var(--paper)}
+</style>
+</head>
+<body>
+
+<nav id="nav">
+  <a class="brand" href="./"><img src="./assets/logo.png" alt="CreativeFitting"></a>
+  <a class="btn-back" href="./#news">← 返回公司动态</a>
+</nav>
+
+<header class="art-hero">
+  <div class="inner">
+    <div class="slate">
+      <svg class="clap" viewBox="0 0 24 24"><path d="M20.2 6 22 4.2 19.8 2 18 3.8 16.2 2 14 4.2 15.8 6H2v16h20V6h-1.8zM4.5 4.7 6.3 6.5 4.5 8.3 2.7 6.5l1.8-1.8zm5 0 1.8 1.8-1.8 1.8-1.8-1.8 1.8-1.8zM20 20H4V10h16v10z"/></svg>
+      <span class="no">Press Room — Milestone</span>
+      <span class="bar"></span>
+    </div>
+    <h1>海外热榜首次出现 AI 短剧的身影</h1>
+    <div class="art-meta">
+      <span class="date">2025.01.22</span>
+      <span>·</span>
+      <span>CreativeFitting 井英科技</span>
+    </div>
+  </div>
+</header>
+
+<article class="art-body">
+      <p>由崔伊执导，CreativeFitting 发行的 AI 出海短剧《After Divorce: My Five Brothers Paved My Way to the Billionaire Throne》（简称 “Five Brothers”）在众多真人实拍短剧中脱颖而出，登上海外微短剧热榜。这是全球首部跻身短剧票房畅销榜的 AI 短剧，标志着 AI 短剧在内容创作和市场拓展方面的巨大潜力，成功打破了行业对于 AI 是否能在影视行业达到用户付费标准的质疑，展现了 AI 驱动的创作力量和商业化能力。</p>
+      <figure><img src="./assets/news-fivebrothers-chart.png" alt="" loading="lazy">
+        <figcaption>来源：DataEye 剧查查</figcaption></figure>
+      <p>《Five Brothers》是一部以 Emmy 为第一主角的大女主女频短剧，讲述了她如何在面对婚姻背叛、家庭冲突等一系列挑战后，勇敢地突破传统束缚和个人桎梏，最终实现自我救赎和成长的故事。</p>
+      <figure><img src="./assets/news-fivebrothers.jpg" alt="" loading="lazy">
+        <figcaption>《Five Brothers》剧照</figcaption></figure>
+      <blockquote><p>AIGC 给影视带来一种新的创作范式，给予导演更强的控制力与更自由的创作空间。我很高兴与 AI 短剧的领军者 CreativeFitting 合作，采用 AI 来完成一部完整的短剧并打开商业化市场，这预示了一场变革的开端，就像是 Matrix 照进了现实。</p><cite>— 导演 崔伊</cite></blockquote>
+      <p>崔伊是一位 80 后导演，曾以主创身份参与《航拍中国》《楚国八百年》等多个千万量级影视项目。</p>
+      <p>CreativeFitting（井英科技）成立于 2021 年，旨在成为全球最大的 AIGC 内容平台。CreativeFitting 的 AI 短剧创作平台，其叙事型视频的生成能力达到全球行业领先水准，尤为擅长生成激发用户情感共鸣的短片，赋能创作者讲述引人入胜的故事。CreativeFitting 还运营了全球首款 AI 短剧 APP「Reel.AI」，打通 AI 短剧商业化发行闭环，为用户带来沉浸的 AI 原生娱乐体验。</p>
+</article>
+
+<div class="art-foot">
+  <a href="./#news">← 返回公司动态</a>
+  <a href="./p76.html">下一篇：CreativeFitting 获百度 PreA+ 轮融资，海外娱乐畅销榜超越 C.AI →</a>
+</div>
+
+<footer>
+  <div class="foot-row">
+    <img src="./assets/logo.png" alt="CreativeFitting">
+    <p>©️ 2021–2026 CreativeFitting 井英科技 · To Imagine, To Create, To Experience</p>
+    <p><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">闽ICP备2023004627号-2</a></p>
+  </div>
+</footer>
+
+<script>
+  const nav = document.getElementById('nav');
+  addEventListener('scroll', () => nav.classList.toggle('scrolled', scrollY > 40), {passive:true});
+</script>
+</body>
+</html>

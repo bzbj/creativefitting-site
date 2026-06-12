@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>CreativeFitting 携手国际导演斩获全球 AI 电影马拉松大赛观众选择奖 — CreativeFitting 井英科技</title>
+<meta name="description" content="CreativeFitting 携手国际导演斩获全球 AI 电影马拉松大赛观众选择奖" />
+<link href="./assets/fonts/fonts.css" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0b0a08;--ink-2:#14110c;--paper:#f3ece1;--paper-dim:#bfb5a4;
+    --amber:#f5a623;--line:rgba(243,236,225,.14);
+    --serif-zh:"Noto Serif SC","Songti SC","STSong",serif;
+    --serif-en:"Playfair Display",Georgia,"Times New Roman",serif;
+    --mono:"Space Grotesk","SF Mono",ui-monospace,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{background:var(--ink);color:var(--paper);font-family:var(--mono);font-weight:300;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+  ::selection{background:var(--amber);color:var(--ink)}
+  a{color:inherit;text-decoration:none}
+  img{display:block;max-width:100%}
+  body::after{
+    content:"";position:fixed;inset:-50%;z-index:120;pointer-events:none;opacity:.05;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    animation:grain 7s steps(10) infinite;
+  }
+  @keyframes grain{0%,100%{transform:translate(0,0)}10%{transform:translate(-3%,2%)}30%{transform:translate(2%,-4%)}50%{transform:translate(-4%,-2%)}70%{transform:translate(3%,4%)}90%{transform:translate(-2%,3%)}}
+  nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:1.1rem 4vw;transition:background .4s,border-color .4s,padding .4s;border-bottom:1px solid transparent}
+  nav.scrolled{background:rgba(11,10,8,.86);backdrop-filter:blur(14px);border-color:var(--line);padding:.7rem 4vw}
+  nav .brand img{height:22px;width:auto}
+  .btn-back{font-family:var(--mono);font-size:.78rem;letter-spacing:.14em;border:1px solid var(--amber);color:var(--amber);padding:.55rem 1.3rem;border-radius:2px;transition:background .3s,color .3s;white-space:nowrap}
+  .btn-back:hover{background:var(--amber);color:var(--ink)}
+  .art-hero{position:relative;padding:9.5rem 4vw 4rem;border-bottom:1px solid var(--line);background:var(--ink-2);overflow:hidden}
+  .art-hero::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 70% 90% at 50% -20%,rgba(245,166,35,.12),transparent 70%);pointer-events:none}
+  .art-hero .inner{max-width:860px;margin:0 auto;position:relative}
+  .slate{display:flex;align-items:center;gap:1.2rem;margin-bottom:1.8rem}
+  .slate .no{font-size:.72rem;letter-spacing:.3em;color:var(--amber);text-transform:uppercase}
+  .slate .bar{flex:0 0 56px;height:1px;background:var(--amber)}
+  .slate .clap{width:20px;height:20px;fill:var(--amber)}
+  .art-hero h1{font-family:var(--serif-zh);font-weight:900;font-size:clamp(1.6rem,4vw,2.9rem);line-height:1.5;letter-spacing:.04em}
+  .art-meta{display:flex;gap:1.4rem;align-items:center;margin-top:1.8rem;font-size:.76rem;letter-spacing:.2em;color:var(--paper-dim);text-transform:uppercase;flex-wrap:wrap}
+  .art-meta .date{color:var(--amber)}
+  .art-body{max-width:760px;margin:0 auto;padding:4.5rem 4vw 5rem}
+  .art-body p{font-size:1.02rem;line-height:2.15;color:var(--paper-dim);margin-bottom:2rem;letter-spacing:.02em}
+  .art-body p strong{color:var(--paper);font-weight:500}
+  .art-body h2{font-family:var(--serif-zh);font-weight:700;font-size:1.45rem;letter-spacing:.06em;color:var(--paper);margin:3.4rem 0 1.6rem;display:flex;align-items:baseline;gap:1rem}
+  .art-body h2 .idx{font-family:var(--serif-en);font-style:italic;font-weight:500;font-size:1.6rem;color:var(--amber)}
+  figure{margin:2.8rem 0;position:relative}
+  figure img{width:100%;border-radius:8px;border:1px solid var(--line);filter:saturate(.92)}
+  figure figcaption{margin-top:.9rem;font-size:.72rem;letter-spacing:.18em;color:var(--paper-dim);text-transform:uppercase}
+  figure figcaption::before{content:"▸";color:var(--amber);margin-right:.6em}
+  blockquote{border-left:2px solid var(--amber);padding:.4rem 0 .4rem 1.8rem;margin:2.8rem 0}
+  blockquote p{font-family:var(--serif-zh);font-size:1.12rem;line-height:2.1;color:var(--paper);margin-bottom:.8rem;font-weight:400}
+  blockquote cite{font-style:normal;font-size:.74rem;letter-spacing:.22em;color:var(--amber);text-transform:uppercase}
+  .art-foot{max-width:760px;margin:0 auto;padding:0 4vw 6rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+  .art-foot a{display:inline-flex;align-items:center;gap:.6rem;font-size:.82rem;letter-spacing:.14em;border:1px solid var(--line);padding:.85rem 1.6rem;border-radius:2px;color:var(--paper-dim);transition:border-color .3s,color .3s,background .3s}
+  .art-foot a:hover{border-color:var(--amber);color:var(--amber);background:rgba(245,166,35,.06)}
+  footer{border-top:1px solid var(--line);padding:3rem 4vw;background:var(--ink)}
+  .foot-row{max-width:1200px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:2rem;flex-wrap:wrap}
+  footer img{height:18px;opacity:.85}
+  footer p{font-size:.72rem;letter-spacing:.14em;color:var(--paper-dim)}
+  footer a:hover{color:var(--paper)}
+</style>
+</head>
+<body>
+
+<nav id="nav">
+  <a class="brand" href="./"><img src="./assets/logo.png" alt="CreativeFitting"></a>
+  <a class="btn-back" href="./#news">← 返回公司动态</a>
+</nav>
+
+<header class="art-hero">
+  <div class="inner">
+    <div class="slate">
+      <svg class="clap" viewBox="0 0 24 24"><path d="M20.2 6 22 4.2 19.8 2 18 3.8 16.2 2 14 4.2 15.8 6H2v16h20V6h-1.8zM4.5 4.7 6.3 6.5 4.5 8.3 2.7 6.5l1.8-1.8zm5 0 1.8 1.8-1.8 1.8-1.8-1.8 1.8-1.8zM20 20H4V10h16v10z"/></svg>
+      <span class="no">Press Room — Award</span>
+      <span class="bar"></span>
+    </div>
+    <h1>CreativeFitting 携手国际导演斩获全球 AI 电影马拉松大赛观众选择奖</h1>
+    <div class="art-meta">
+      <span class="date">2024.06.18</span>
+      <span>·</span>
+      <span>CreativeFitting 井英科技</span>
+    </div>
+  </div>
+</header>
+
+<article class="art-body">
+      <figure><img src="./assets/news-award.jpg" alt="" loading="lazy">
+        <figcaption>全球 AI 电影马拉松大赛颁奖现场</figcaption></figure>
+      <p>近日，「CreativeFitting（井英科技）」与国际导演吴剑（Jud Willmont）合作创作的 AI 短片《M.A.D》（俱皆毁灭），在全球 AI 电影马拉松大赛上荣获 B 站观众选择奖。该短片利用 CreativeFitting 自研的视频大模型 Reel Diffusion 生成，打动了广大观众，展现了其在生成式 AI 领域的卓越能力。</p>
+      <p>本次全球 AI 电影马拉松大赛由上海电影股份有限公司携手上影新视野基金及青年电影创作者平台 filMarathon 共同主办。自今年 4 月在洛杉矶启动以来，吸引了来自全球 180 多座城市的 700 多支团队参赛，最终有 80 余部短片入围，评选出 8 项大奖。获奖影片将在第 26 届上海国际电影节（SIFF）期间展映。</p>
+      <blockquote><p>这部电影是 Willmountain Films 与 AIGC 领域的领军者 CreativeFitting 的创始人兼 CEO 朱江及其团队合作的一次重要尝试，共同探索其自主研发的生成式 AI 视频模型。在不到三周时间内完成了一部完整的动画短片，这是一次挑战叙事技巧的好机会。我看见 AI 在提升制作效率方面的潜力，以及它如何为制作过程做出一些新颖的创意。</p><cite>— 《M.A.D》编剧、导演 Jud Willmont</cite></blockquote>
+      <p>《M.A.D》改编自知名科幻作家何夕的作品《汪洋战争》，该片以核战争为背景，探讨了战争及人类自我毁灭的话题。团队率先在对白较多、角色情绪表演较多的故事中使用自研视频大模型 Reel Diffusion，挑战传统的 AI 故事叙事风格，成功突破界限，从一众基于全球各视频大模型生成的 AI 短片中脱颖而出，获得包括生成式 AI 开发者、影视创作者及广大观影者在内的业内外一致好评。</p>
+      <p>CreativeFitting 成立于 2021 年，是国内最早基于大模型探索视频生成的团队之一。公司拥有一支既懂 AI 又懂内容的优秀团队，创始人兼 CEO 朱江毕业于上海交通大学计算机系，曾任触宝科技首席增长官，从 0 构建了千万级 DAU 的泛娱乐应用，并负责集团全球用户增长工作。</p>
+      <p>Reel Diffusion 视频大模型在叙事型视频的生成方面达到全球 SOTA 水准，与其他视频大模型相比，尤为擅长于生成能够与观众产生情感共鸣的短片。模型支持人物角色的细腻情感表达及复杂场景的生成，从算法到训练数据及工程实现，都进行了专门设计，帮助创作者讲述引人入胜的故事。</p>
+      <p>“AI + 娱乐，拐点已来。”朱江说道。随着生成式 AI 飞速进化，从单一模态到图片、语音、视频的多模态生成，以「创造生成」为核心的 AIGC 技术带来了内容消费的革命性机遇。伴随底层模型能力的迭代提升，AI 已经能生成优质的多模态内容，能在视觉、听觉、互动等多维度为用户提供情绪价值，同时具备巨大的商业潜力。</p>
+      <p>CreativeFitting 已经发布了全球首款 AI 短剧 App，率先登陆美国市场并取得超出预期的亮眼表现。朱江表示：“下一阶段，公司将进一步提升模型能力，加速产品升级及用户增长。新一代超级 App 已出现在地平线上。”</p>
+</article>
+
+<div class="art-foot">
+  <a href="./#news">← 返回公司动态</a>
+  <a href="./p2023.html">下一篇：CreativeFitting 获数百万美元 Pre-A 轮融资，自研视频生成模型，将发布全球首款 AI 短剧 APP →</a>
+</div>
+
+<footer>
+  <div class="foot-row">
+    <img src="./assets/logo.png" alt="CreativeFitting">
+    <p>©️ 2021–2026 CreativeFitting 井英科技 · To Imagine, To Create, To Experience</p>
+    <p><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">闽ICP备2023004627号-2</a></p>
+  </div>
+</footer>
+
+<script>
+  const nav = document.getElementById('nav');
+  addEventListener('scroll', () => nav.classList.toggle('scrolled', scrollY > 40), {passive:true});
+</script>
+</body>
+</html>

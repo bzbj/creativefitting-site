@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>井英科技完成新一轮融资，原 AWS 首席应用科学家加盟，加速 AI 娱乐 Agent 引擎建设 — CreativeFitting 井英科技</title>
+<meta name="description" content="井英科技完成新一轮融资，原 AWS 首席应用科学家加盟，加速 AI 娱乐 Agent 引擎建设" />
+<link href="./assets/fonts/fonts.css" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0b0a08;--ink-2:#14110c;--paper:#f3ece1;--paper-dim:#bfb5a4;
+    --amber:#f5a623;--line:rgba(243,236,225,.14);
+    --serif-zh:"Noto Serif SC","Songti SC","STSong",serif;
+    --serif-en:"Playfair Display",Georgia,"Times New Roman",serif;
+    --mono:"Space Grotesk","SF Mono",ui-monospace,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{background:var(--ink);color:var(--paper);font-family:var(--mono);font-weight:300;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+  ::selection{background:var(--amber);color:var(--ink)}
+  a{color:inherit;text-decoration:none}
+  img{display:block;max-width:100%}
+  body::after{
+    content:"";position:fixed;inset:-50%;z-index:120;pointer-events:none;opacity:.05;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    animation:grain 7s steps(10) infinite;
+  }
+  @keyframes grain{0%,100%{transform:translate(0,0)}10%{transform:translate(-3%,2%)}30%{transform:translate(2%,-4%)}50%{transform:translate(-4%,-2%)}70%{transform:translate(3%,4%)}90%{transform:translate(-2%,3%)}}
+  nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:1.1rem 4vw;transition:background .4s,border-color .4s,padding .4s;border-bottom:1px solid transparent}
+  nav.scrolled{background:rgba(11,10,8,.86);backdrop-filter:blur(14px);border-color:var(--line);padding:.7rem 4vw}
+  nav .brand img{height:22px;width:auto}
+  .btn-back{font-family:var(--mono);font-size:.78rem;letter-spacing:.14em;border:1px solid var(--amber);color:var(--amber);padding:.55rem 1.3rem;border-radius:2px;transition:background .3s,color .3s;white-space:nowrap}
+  .btn-back:hover{background:var(--amber);color:var(--ink)}
+  .art-hero{position:relative;padding:9.5rem 4vw 4rem;border-bottom:1px solid var(--line);background:var(--ink-2);overflow:hidden}
+  .art-hero::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 70% 90% at 50% -20%,rgba(245,166,35,.12),transparent 70%);pointer-events:none}
+  .art-hero .inner{max-width:860px;margin:0 auto;position:relative}
+  .slate{display:flex;align-items:center;gap:1.2rem;margin-bottom:1.8rem}
+  .slate .no{font-size:.72rem;letter-spacing:.3em;color:var(--amber);text-transform:uppercase}
+  .slate .bar{flex:0 0 56px;height:1px;background:var(--amber)}
+  .slate .clap{width:20px;height:20px;fill:var(--amber)}
+  .art-hero h1{font-family:var(--serif-zh);font-weight:900;font-size:clamp(1.6rem,4vw,2.9rem);line-height:1.5;letter-spacing:.04em}
+  .art-meta{display:flex;gap:1.4rem;align-items:center;margin-top:1.8rem;font-size:.76rem;letter-spacing:.2em;color:var(--paper-dim);text-transform:uppercase;flex-wrap:wrap}
+  .art-meta .date{color:var(--amber)}
+  .art-body{max-width:760px;margin:0 auto;padding:4.5rem 4vw 5rem}
+  .art-body p{font-size:1.02rem;line-height:2.15;color:var(--paper-dim);margin-bottom:2rem;letter-spacing:.02em}
+  .art-body p strong{color:var(--paper);font-weight:500}
+  .art-body h2{font-family:var(--serif-zh);font-weight:700;font-size:1.45rem;letter-spacing:.06em;color:var(--paper);margin:3.4rem 0 1.6rem;display:flex;align-items:baseline;gap:1rem}
+  .art-body h2 .idx{font-family:var(--serif-en);font-style:italic;font-weight:500;font-size:1.6rem;color:var(--amber)}
+  figure{margin:2.8rem 0;position:relative}
+  figure img{width:100%;border-radius:8px;border:1px solid var(--line);filter:saturate(.92)}
+  figure figcaption{margin-top:.9rem;font-size:.72rem;letter-spacing:.18em;color:var(--paper-dim);text-transform:uppercase}
+  figure figcaption::before{content:"▸";color:var(--amber);margin-right:.6em}
+  blockquote{border-left:2px solid var(--amber);padding:.4rem 0 .4rem 1.8rem;margin:2.8rem 0}
+  blockquote p{font-family:var(--serif-zh);font-size:1.12rem;line-height:2.1;color:var(--paper);margin-bottom:.8rem;font-weight:400}
+  blockquote cite{font-style:normal;font-size:.74rem;letter-spacing:.22em;color:var(--amber);text-transform:uppercase}
+  .art-foot{max-width:760px;margin:0 auto;padding:0 4vw 6rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+  .art-foot a{display:inline-flex;align-items:center;gap:.6rem;font-size:.82rem;letter-spacing:.14em;border:1px solid var(--line);padding:.85rem 1.6rem;border-radius:2px;color:var(--paper-dim);transition:border-color .3s,color .3s,background .3s}
+  .art-foot a:hover{border-color:var(--amber);color:var(--amber);background:rgba(245,166,35,.06)}
+  footer{border-top:1px solid var(--line);padding:3rem 4vw;background:var(--ink)}
+  .foot-row{max-width:1200px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:2rem;flex-wrap:wrap}
+  footer img{height:18px;opacity:.85}
+  footer p{font-size:.72rem;letter-spacing:.14em;color:var(--paper-dim)}
+  footer a:hover{color:var(--paper)}
+</style>
+</head>
+<body>
+
+<nav id="nav">
+  <a class="brand" href="./"><img src="./assets/logo.png" alt="CreativeFitting"></a>
+  <a class="btn-back" href="./#news">← 返回公司动态</a>
+</nav>
+
+<header class="art-hero">
+  <div class="inner">
+    <div class="slate">
+      <svg class="clap" viewBox="0 0 24 24"><path d="M20.2 6 22 4.2 19.8 2 18 3.8 16.2 2 14 4.2 15.8 6H2v16h20V6h-1.8zM4.5 4.7 6.3 6.5 4.5 8.3 2.7 6.5l1.8-1.8zm5 0 1.8 1.8-1.8 1.8-1.8-1.8 1.8-1.8zM20 20H4V10h16v10z"/></svg>
+      <span class="no">Press Room — Funding · Latest</span>
+      <span class="bar"></span>
+    </div>
+    <h1>井英科技完成新一轮融资，原 AWS 首席应用科学家加盟，加速 AI 娱乐 Agent 引擎建设</h1>
+    <div class="art-meta">
+      <span class="date">2026.06.09</span>
+      <span>·</span>
+      <span>CreativeFitting 井英科技</span>
+    </div>
+  </div>
+</header>
+
+<article class="art-body">
+      <p>2026 年 6 月，井英科技（CreativeFitting）宣布已完成数千万美元 A 轮及 A+ 轮融资，投资方包括 Lollapalooza Capital（王慧文家办）、蚂蚁集团、腾讯公司原集团副总裁殷宇等。与此同时，公司正式官宣原 AWS 亚马逊上海 AI 研究院首席应用科学家、现任香港大学上海智能交叉创新研究院院长王敏捷加入，担任首席科学家。这也体现了具备前沿科技判断和产业资源的投资方，对井英科技团队、技术路线和公司愿景的认可。通过本轮融资，井英科技将继续加大对 AI 短剧的技术投入，构建内容创作和评估反馈环境，以 Agent 原生的方式推动内容娱乐行业升级。</p>
+      <figure><img src="./assets/news-2026-funding.jpg" alt="" loading="lazy">
+        <figcaption>左：井英科技 CEO 朱江 · 右：井英科技首席科学家王敏捷</figcaption></figure>
+      <p>井英科技创立于 2021 年，长期围绕 AI 内容生产技术和娱乐消费场景进行探索。内容娱乐是一个万亿美元级市场，AI 短剧则是其中增长最快的新兴场景之一，而且短剧的反馈密度天然适合驱动 Agent 迭代。井英科技是全球 AI 短剧赛道的开创者，率先在海外 AI 短剧行业中跑通了从生产、分发到用户消费的完整闭环。团队专注于构建和优化各环节的 Agent 系统，使内容创作、评估和反馈形成持续运转的工作回路。目前已有上千名创作者及其 Agent 接入系统。随着更多创作者及其 Agent 的接入和经验的积累，系统将不断自我进化。</p>
+      <blockquote><p>Coding Agent 已经证明，Agent 能深刻重构一个行业。内容行业是下一个。Agent 原生公司是一种全新的组织范式：每个人创造自己的 Agent 加入公司工作，组织摩擦大幅降低，公司以 Agent 的速度运转。AI 短剧是首选场景，但 Agent 原生公司最终会改造整个内容娱乐行业。</p><cite>— 井英科技创始人兼 CEO 朱江</cite></blockquote>
+</article>
+
+<div class="art-foot">
+  <a href="./#news">← 返回公司动态</a>
+  <a href="./p0409.html">下一篇：温影 × 井英科技战略合作揭牌，共话 AI 短剧的新导演时代 →</a>
+</div>
+
+<footer>
+  <div class="foot-row">
+    <img src="./assets/logo.png" alt="CreativeFitting">
+    <p>©️ 2021–2026 CreativeFitting 井英科技 · To Imagine, To Create, To Experience</p>
+    <p><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">闽ICP备2023004627号-2</a></p>
+  </div>
+</footer>
+
+<script>
+  const nav = document.getElementById('nav');
+  addEventListener('scroll', () => nav.classList.toggle('scrolled', scrollY > 40), {passive:true});
+</script>
+</body>
+</html>
